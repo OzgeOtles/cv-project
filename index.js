@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.get('/api/cv', (req, res) => {
   const cvData = {
     name: "Özge Ötleş",
-    address: "Alaybey Mah. 1673 Sok. No:44/6 Karşıyaka/İZMİR",
+    address: "Alaybey Mah. 1673 Sok. No:44/6 Karşıyaka/İZMİR/Türkiye",
     phone: "+90 531 230 9749",
     email: "ozgeotles@gmail.com",
     personalInformation: {
