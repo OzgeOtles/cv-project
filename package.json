@@ -8,8 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzgeOtles/cv-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OzgeOtles/cv-project/issues"
+  },
+  "homepage": "https://github.com/OzgeOtles/cv-project#readme",
+  "description": ""
 }
