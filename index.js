@@ -45,15 +45,14 @@ app.get('/api/cv', (req, res) => {
         degree: "Management Information Systems", 
         gpa: 3.82, 
         startingYear: 2020,
-        finishingYear: "Present", // for ongoing study, this could be left dynamic if preferred.
+        finishingYear: "Present", 
         description: "Currently studying in Management Information Systems with a GPA of 3.82."
       },
       { 
         school: "Izmir Ataturk High School", 
         gpa: 94.70, 
         startingYear: 2013,
-        finishingYear: 2017,
-        description: "Graduated with GS: 94.70."
+        finishingYear: 2017
       }
     ],
 
