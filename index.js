@@ -23,7 +23,7 @@ app.get('/api/cv', (req, res) => {
     education: [
       { 
         school: "Yasar University", 
-        degree: "Computer Engineer", 
+        degree: "Computer Engineering", 
         gpa: 3.90, 
         startingYear: 2018,
         finishingYear: 2022,
@@ -33,7 +33,7 @@ app.get('/api/cv', (req, res) => {
       },
       { 
         school: "Yasar University", 
-        degree: "Industrial Engineer", 
+        degree: "Industrial Engineering", 
         gpa: 3.94, 
         startingYear: 2017,
         finishingYear: 2021,
