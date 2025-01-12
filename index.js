@@ -29,7 +29,7 @@ app.get('/api/cv', (req, res) => {
         finishingYear: 2022,
         scholarship: "Full", 
         doubleDegree: true,
-        description: "Got degree in the Engineering Department. Double Degree - Full Scholarship."
+        description: "Got degree in the Engineering Department.(%100 English)"
       },
       { 
         school: "Yasar University", 
@@ -38,15 +38,14 @@ app.get('/api/cv', (req, res) => {
         startingYear: 2017,
         finishingYear: 2021,
         scholarship: "Full",
-        description: "Entering Yasar University with the highest score of the year 2017 and graduating as top student in the Engineering Department and also top of the whole Yaşar University."
+        description: "Entering Yasar University with the highest score of the year 2017 and graduating as top student in the Engineering Department and also top of the whole Yaşar University. (%100 English)"
       },
       { 
         school: "Anadolu University", 
         degree: "Management Information Systems", 
         gpa: 3.82, 
         startingYear: 2020,
-        finishingYear: "Present", 
-        description: "Currently studying in Management Information Systems with a GPA of 3.82."
+        finishingYear: "Present"
       },
       { 
         school: "Izmir Ataturk High School", 
