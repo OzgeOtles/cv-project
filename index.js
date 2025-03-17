@@ -103,6 +103,7 @@ app.get('/api/cv', (req, res) => {
     ],
     hobbies: ["Playing Guitar", "Gymnastics", "Swimming", "Playing Tennis"],
     certificates: [
+      { firm: "Microsoft", year: 2022, certificatename: "AZ-104T00 - Microsoft Azure Administrator" },
       { firm: "RiEcoLab - EIT", year: 2021, certificatename: "Embedding Responsible Research Innovation" },
       { firm: "Huawei Seeds for the Future Program", year: 2020, certificatename: "Huawei Seeds for the Future Program Certificate" },
       { firm: "Engineering.com", year: 2018, certificatename: "Adoption of Industrial Internet of Things" },
@@ -124,6 +125,33 @@ app.get('/api/cv', (req, res) => {
     ],
     programmingSkills: [
       "C", "C#", "HTML", "VBA", "MSSQL", "JavaScript", "Python", "React", "Next.js", "TypeScript", "Node.js"
+    ],
+    projects: [
+      {
+        name: "A Discrete-Time Resource Allocated Project Scheduling Model",
+        technologies: ["C#", "HTML", "JavaScript", "MySQL", "Git", "CPLEX"],
+        description: "When a project is created, it is a web programming project that calculates how to make this project optimal in the shortest time, with the highest quality and at the cheapest cost, by adding resources, activities and features, and has an optimization problem solution that we produce ourselves in the background. It is a project inspired by Microsoft Projects and produced by translating it into a much more comprehensive optimization problem."
+      },
+      {
+        name: "ARkadas",
+        technologies: ["Unity", "C#", "JavaScript"],
+        description: "It is a mobile AR project running on Androids. Virtual AR has a penguin that allows you to feel like you are in your room from the camera, as well as a chatbox that allows you to talk to the penguin and get answers in voice and text, as well as perform actions such as feeding it, producing more penguins or moving them."
+      },
+      {
+        name: "In bank turn monolitic projects to microservice projects",
+        technologies: ["Next.js", "C#", "Typescript", "Mssql", "Jenkins", "Git"],
+        description: "In the bank, we transformed our project infrastructure, which was in its entire monolithic structure, into a microservice structure with new technologies. While we used javascript html on the front end and csharp on the back end, we converted it to next.js typescript microservice projects with csharp on the back end. As the European swift payments team, we have made it possible to support mx target messages in our new project, as well as mt messages. Our structure that makes swift, sepa, inhouse and target payments has been formed."
+      },
+      {
+        name: "Moneygram Project",
+        technologies: ["React", "C#", "Typescript", "Mssql", "Jenkins", "Git"],
+        description: "It is our project that we redesigned the screens that allow us to make Moneygram payments. We designed three main screens: outgoing payment screen, incoming payment screen and monitoring screen."
+      },
+      {
+        name: "Movies Buddies",
+        technologies: ["Python", "Git"],
+        description: "A program that uses machine learning to make movie recommendations that two people are likely to enjoy based on their ratings of movies in the past."
+      }
     ]
   };
 
